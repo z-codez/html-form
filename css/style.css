@@ -6,8 +6,28 @@ body {
   color: white;
 }
 
-h1 {
-  margin-top: 0;
+h1, p {
+  text-align: center;
+}
+form {
+  width: 60vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+fieldset {
+  border: 0 none;
+  border-bottom: 3px solid #3b3d4f;
+  padding: 2em 0;
+}
+
+fieldset:first-of-type legend {
+  display: none;
+}
+fieldset:last-of-type {
+  border-bottom: none;
 }
 
 label {
@@ -15,6 +35,14 @@ label {
 }
 /* Centering the legends*/
 legend {
-  margin: auto;
+  text-align: center;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+.inline {
+  width: unset;
 }
 
