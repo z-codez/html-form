@@ -32,17 +32,50 @@ fieldset:last-of-type {
 
 label {
   display: block;
+  /*margin: 0.5rem 0;*/
 }
 /* Centering the legends*/
 legend {
   text-align: center;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   margin: 10px 0;
+  border-color: #0a0a23;
+  border-style: solid;
+  height: 2em;
+}
+
+input,
+textarea {
+  background-color: #0a0a23;
+  color: #ffffff;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
 }
 .inline {
   width: unset;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+label[for="terms"] a {
+  color: #dfdfe2;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: #3b3d4f;
+  font-size: 1.1rem;
+  height: 2em;
+  border-color: white;
+  min-width: 300px;
+  width: 60%;
+  margin: 1em auto;
 }
 
